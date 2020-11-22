@@ -30,7 +30,7 @@ import axios from "axios"
         methods: {
             updateBlog: function() {
                 axios.request({
-                    url: "https://bigblog.gq/api/blog_post",
+                    url: "https://biggerblog.ga/api/blog_post",
                     method: "PATCH",
                     headers: {
                          "Content-Type": "application/json",

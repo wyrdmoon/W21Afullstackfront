@@ -19,7 +19,7 @@ import axios from "axios";
        methods: {
            DeleteBlog: function() {
                axios.request({
-                   url: "https://bigblog.gq/api/blog_post",
+                   url: "https://biggerblog.ga/api/blog_post",
               method: "DELETE",
               headers: {
                   "Content-Type": "application/json",
