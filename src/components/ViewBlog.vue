@@ -33,7 +33,7 @@ import DeleteBlog from "./DeleteBlog.vue"
         methods: {
             viewBlog: function() {
                axios.request({
-                   url: "https://biggerblog.ga/api/blog_post",
+                   url: "https://biggleblog.ga/api/blog_post",
                    method: "GET"
                }).then((response) =>{
                    console.log(response);

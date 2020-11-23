@@ -27,7 +27,7 @@ import axios from "axios"
         methods: {
             createBlog: function() {
                 axios.request({
-                    url:"https://biggerblog.ga/api/blog_post",
+                    url:"https://biggleblog.ga/api/blog_post",
                     method: "POST",
                     headers:{
                         "Content-Type": "application/json"
